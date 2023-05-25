@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/*Cores primarias*/
+:root {
+    --color-primaria: #daa520;
+    --color-secundaria: #7c96a6;
+    --color-terceira: #4C594F;
+}
+/*Marcações*/
+strong {
+    color: var(--color-primaria);
+}
