@@ -8,8 +8,9 @@
 /*Cores primarias*/
 :root {
     --color-primaria: #daa520;
-    --color-secundaria: #7c96a6;
-    --color-terceira: #4C594F;
+    --color-secundaria: #000;
+    --color-links: #000000b7;
+    --color-terceiro: #fff;
 }
 /*Marcações*/
 strong {

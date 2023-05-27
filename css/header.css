@@ -22,72 +22,13 @@ nav {
 .link-principal {
     font-size: 1.7rem;
     font-weight: 800;
-    color: #000;
+    color: var(--color-secundaria);
 }
 li a {
-    color: #000000c6;
+    color: var(--color-links);
     font-size: 1rem;
 }
 #bx-redes {
     font-size: 1.2rem;
-    color: #000000bd;
-}
-
-
-
-
-
-
-
-
-
-.sessao-primaria {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.texto-priamiro {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    gap: .5rem;
-}
-.organizacao-texto {
-    width: 70%;
-
-}
-.texto-priamiro h1 {
-    font-size: 2.5rem;
-    font-weight: 900;
-    overflow: hidden;
-}
-.btn-primario {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.organizacao-texto p {
-    padding-bottom: 1rem;
-}
-.btn-conhecer {
-    width: 30%;
-    height: 5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    background: var(--color-primaria);
-}
-.btn-produtos {
-    color: #fff;
-}
-.img-principal {
-    width: 50%;
-    height: 89vh;
-    background: url(https://dy5q5k7ty7owl.cloudfront.net/images/new-home/bg-hero-home.webp);
-    background-size: cover;
-    background-position-x: -250px;
+    color: var(--color-secundaria);
 }

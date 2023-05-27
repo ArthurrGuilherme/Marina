@@ -1,0 +1,105 @@
+.sessao-primaria {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.texto-priamiro {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: .5rem;
+    padding-top: 4rem;
+}
+.organizacao-texto {
+    width: 70%;
+}
+.texto-priamiro h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    overflow: hidden;
+}
+.btn-primario {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.organizacao-texto p {
+    padding-bottom: 1rem;
+}
+.btn-conhecer {
+    width: 30%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: var(--color-primaria);
+}
+.btn-produtos {
+    color: var(--color-terceiro);
+}
+.img-principal {
+    width: 50%;
+    height: 89vh;
+    background: url(https://dy5q5k7ty7owl.cloudfront.net/images/new-home/bg-hero-home.webp);
+    background-size: cover;
+    background-position-x: -250px;
+}
+
+
+/*Produtos*/
+.sessao-fotos-produtos {
+    width: 60%;
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+    left: 1rem;
+}
+.slider {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    gap: .5rem;
+    transition: all .5s;
+    overflow: hidden;
+}
+.slider .slide {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    transition: 0.5s;
+}
+.slider .slide:nth-child(1) {
+
+    background: url(https://i.pinimg.com/564x/d7/c9/53/d7c953b4c654eebd1530dc21a25035ad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: 30px;
+
+}
+.slider .slide:nth-child(2) {
+    background: url(https://i.pinimg.com/564x/a8/a4/21/a8a421b47d24121a91585cf284e43b9d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+}
+.slider .slide:nth-child(3) {
+    background: url(https://dy5q5k7ty7owl.cloudfront.net/images/new-home/bg-credito-imobiliario.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+}
+
+/*Efeito*/
+.slider .slide:hover {
+    width: 100%;
+    cursor: pointer;
+}
