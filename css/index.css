@@ -63,7 +63,6 @@
     display: flex;
     align-items: center;
     text-align: center;
-    padding-right: 1.5rem;
 }
 .sessao-fotos-produtos {
     width: 100%;
@@ -150,14 +149,17 @@
 }
 .barra-produto {
     width: 1px;
-    height: 8vh;
+    height: 10vh;
     background: var(--color-primaria);
 }
-
 .produtos-lista p {
     font-size: 1.1rem;
     padding-bottom: 0rem;
 }
+.p-explicacao {
+    color: var(--color-links);
+}
+
 /*Efeito*/
 .slider .slide:hover {
     width: 100%;
