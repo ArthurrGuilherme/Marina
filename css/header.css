@@ -23,12 +23,34 @@ nav {
     font-size: 1.7rem;
     font-weight: 800;
     color: var(--color-secundaria);
+    transition:  all .5s;
+    cursor: pointer;
 }
 li a {
     color: var(--color-links);
     font-size: 1rem;
+    transition:  all .5s;
+    cursor: pointer;
 }
 #bx-redes {
     font-size: 1.2rem;
     color: var(--color-secundaria);
+    transition:  all .5s;
+    cursor: pointer;
+}
+
+/*Efeitos*/
+.link-principal:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+li a:hover {
+    color: var(--color-secundaria);
+    font-size: 1rem;
+    -webkit-filter: drop-shadow(15px 10px 5px #daa520);
+    filter: drop-shadow(15px 10px 5px #daa520);
+}
+#bx-redes:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
